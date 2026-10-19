@@ -20,7 +20,7 @@ jobs:
       - name: Debug Bunny Sites List
         env:
           BUNNYNET_API_KEY: ${{ secrets.BUNNYNET_API_KEY }}
-        run: npx --yes @bunny.net/cli@0.15 sites list
+        run: npx --yes @bunny.net/cli@0.15 whoami
       # No build step: static files deploy as-is.
       - uses: BunnyWay/actions/deploy-site@deploy-site_0.1.0
         env:
