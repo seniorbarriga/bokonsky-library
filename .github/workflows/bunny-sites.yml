@@ -25,5 +25,5 @@ jobs:
           BUNNYNET_API_KEY: ${{ secrets.BUNNYNET_API_KEY }}
         with:
           site: bokonsky-library
-          directory: .
+          directory: public
           api_key: ${{ secrets.BUNNYNET_API_KEY }}
