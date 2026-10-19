@@ -21,9 +21,7 @@ jobs:
       # No build step: static files deploy as-is.
       - name: check secret
         uses: BunnyWay/actions/deploy-site@deploy-site_0.1.0
-        env:
-          BUNNYNET_API_KEY: ${{ secrets.BUNNYNET_API_KEY }}
         with:
           site: bokonsky-library
           directory: .
-          api_key: $BUNNYNET_API_KEY
+          api_key: ${{ secrets.BUNNYNET_API_KEY }}
