@@ -1,23 +1,22 @@
 {
   "name": "bokonsky-library",
   "version": "1.0.0",
-  "description": "",
+  "description": "- HTML - CSS - Javascript",
+  "homepage": "https://github.com/seniorbarriga/bokonsky-library#readme",
+  "bugs": {
+    "url": "https://github.com/seniorbarriga/bokonsky-library/issues"
+  },
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/seniorbarriga/bokonsky-library.git"
+  },
+  "license": "ISC",
+  "author": "",
+  "type": "commonjs",
   "main": "index.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1"
   },
-  "keywords": [],
-  "author": "",
-  "license": "ISC",
-  "devEngines": {
-    "packageManager": {
-      "name": "pnpm",
-      "version": "12.11.2",
-      "onFail": "download"
-    }
-  },
-  "packageManager": "pnpm@12.11.2",
-  "type": "module",
   "dependencies": {
     "prettier": "^3.9.10"
   }
