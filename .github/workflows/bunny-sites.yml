@@ -25,3 +25,4 @@ jobs:
         with:
           site: bokonsky-library
           directory: .
+          api_key: ${{ secrets.BUNNYNET_API_KEY }}
