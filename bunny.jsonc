@@ -1,0 +1,7 @@
+{
+  "site": {
+    "name": "bokonsky-library",
+    "dir": "public",
+    "spa": false
+  }
+}
